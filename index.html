@@ -25,19 +25,31 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <style>
-      .available-color {
-        width: 2em;
-        height: 2em;
-        border-radius: 100px;
-        background-color: black;
-      }
-	    
-      .testimonial > img {
-		  max-height: 70vh;
-		  max-width: 70vw;
-		  object-fit: contain;
-	      margin: 2vh auto;
-       }
+		.available-color {
+			width: 2em;
+			height: 2em;
+			border-radius: 100px;
+			background-color: black;
+		}
+
+		.testimonial > img {
+			max-height: 70vh;
+			max-width: 70vw;
+			object-fit: contain;
+			margin: 2vh auto;
+		}
+		
+		#buy-now-btn {
+			margin: 3vh auto;	
+		}
+		
+		#buy-now-btn p {
+			color: #FD7E14;
+			border-width: 1px;
+			border-color: #FD7E14;
+			border-radius: 30px;
+			padding: 4vw 5vw;
+		}
     </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -111,7 +123,7 @@
           <div class="col-md-10  text-center">
             <div class="single-text owl-carousel">
               <div class="slide">
-                <h1 class="text-uppercase" data-aos="fade-up">The Original Blendout</h1>
+                <h1 class="text-uppercase" data-aos="fade-up">The Original Blendout&trade;</h1>
                 <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Take it anywhere with you and create a fresh smoothie on the go!</p>
                 <div data-aos="fade-up" data-aos-delay="100">
                 </div>
@@ -156,7 +168,7 @@
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             
-            <h3 class="text-black mb-4">The Original Blendout</h3>
+            <h3 class="text-black mb-4">The Original Blendout&trade;</h3>
 
             <p>We created a small power-machine that lets you make fresh smoothies, shakes, and baby food wherever you are. Just add the ingredients, press the button, and your powerful Blender will make your favorite recipes.</p>
 
@@ -170,6 +182,8 @@
         
       </div>  
     </div>
+    
+	<a id="buy-now-btn"><p>BUY NOW</p></a>
 
     <section class="site-section" id="gallery-section" data-aos="fade">
       
