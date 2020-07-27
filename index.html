@@ -39,13 +39,21 @@
 			margin: 2vh auto;
 		}
 		
-		#buy-now-btn p {
+		#buy-now-btn {
 			color: #FD7E14;
 			border: #FD7E14 solid 1px;
 			border-radius: 30px;
 			margin: 0 auto;
-			width: 70px;
+			width: 120px;
 			text-align: center;
+			padding: 10px 25px;
+			font-weight: bold;
+			transition: all 0.2s cubic-bezier(0.25, 0.47, 0.44, 0.95);
+		}
+	    
+		#buy-now-btn:hover {
+			color: white;
+			background-color: #FD7E14;
 		}
     </style>
   </head>
@@ -180,7 +188,7 @@
       </div>  
     </div>
     
-	<a id="buy-now-btn"><p>BUY NOW</p></a>
+	<a><p id="buy-now-btn">BUY NOW</p></a>
 
     <section class="site-section" id="gallery-section" data-aos="fade">
       
